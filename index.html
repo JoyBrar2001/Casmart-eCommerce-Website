@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casmart - Biggest shopping center</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <div class="header-search">
+                <input type="search" name="search" placeholder="Search Product.." class="input-field">
+
+                <button class="search-btn" aria-label="Search">
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+            </div>
+
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" alt="Casmart logo" width="130" height="31">
+            </a>
+
+            <div class="header-actions">
+
+                <button class="header-action-btn">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                    <p class="header-action-label">Sign in</p>
+                </button>
+
+                <button class="header-action-btn">
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+                    <p class="header-action-label">Search</p>
+                </button>
+
+                <button class="header-action-btn">
+                    <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+                    <p class="header-action-label">Cart</p>
+
+                    <div class="btn-badge green" aria-hidden="true">3</div>
+                </button>
+
+                <button class="header-action-btn">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                    <p class="header-action-label">Wishlist</p>
+                    <div class="btn-badge" aria-hidden="true">2</div>
+                </button>
+
+            </div>
+
+            <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" alt="Casmart Logo" width="130" height="31">
+                    </a>
+
+                    <button class="nav-close-btn" data-nav-close-btn arir-label="Close Menu">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+                <ul class="navbar-lsit">
+
+                    <li>
+                        <a href="#home" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <article>
+
+            <!-- Hero -->
+
+            <section class="hero" id="hero" style="background-image: url('./assets/images/hero-banner.jpg');">
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle">Fashion Everyday</p>
+
+                        <h2 class="h1 hero-title">Unrivalled Fashion House</h2>
+
+                        <button class="btn btn-primary">Shop Now</button>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Service -->
+
+            <section class="service">
+                <div class="container">
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-1.svg" alt="Service Icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Free Shipping</p>
+
+                                <p class="service-item-text">On All Orders Over $599</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-2.svg" alt="Service Icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Easy Returns</p>
+
+                                <p class="service-item-text">30 Dat Return Policy</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-3.svg" alt="Service Icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Secure Payment</p>
+
+                                <p class="service-item-text">100% Secure Gaurantee</p>
+                            </div>
+                        </li>
+
+                        <li class="service-item">
+                            <div class="service-item-icon">
+                                <img src="./assets/images/service-icon-4.svg" alt="Service Icon">
+                            </div>
+
+                            <div class="service-content">
+                                <p class="service-item-title">Special Support</p>
+
+                                <p class="service-item-text">24/7 Dedicatedd Support</p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- custom Js link -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
